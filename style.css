@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+.bg {
+  background-image: url("https://www.palaiszelda.com/cado/fds-ecran/botw_1_1920.jpg");
+  height: 100%;
+  background-position: 0px -60px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#title {
+  color: #C4A42F;
+  font-weight: bold;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Raleway', Helvetica, sans-serif, Times New Roman;
+  text-align: center;
+}
+
+
+fieldset {
+  background-color: white;
+  margin: auto;
+  width: 650px;
+  font-size: 150%;
+}
+
+
+
+li.radio {
+  font-size: 20px;
+}
+
+@media (min-width: 500px){
+  fieldset {
+    width: 0%;
+  }
+}
+
+@media (min-width: 501px){
+  fieldset {
+    width: 40%;
+  }
+}
